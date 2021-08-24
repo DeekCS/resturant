@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&family=Montserrat:wght@100;300;400&display=swap");
+
+.navbar-brand {
+  font-family: "Great Vibes", cursive;
+}
+
+.image:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.text {
+  font-family: "Atma", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+.bg-content {
+  font-family: "Atma", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.carousel-caption p {
+  font-size: 2.4rem;
+}
+
+.services h4,
+.services h1 {
+  font-size: 4rem;
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+}
+
+.services p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.banner-gradient {
+  width: 100%;
+  height: 800px;
+}
+
+.image img {
+  border: black;
+
+  border-radius: 5%;
+}
+.carousel-caption {
+  top: 50%;
+}
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+body {
+  background: #2a2e32;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/*Contact */
+
+.contact-text {
+  margin: 45px auto;
+}
+/* Contact Form */
+#contact .contact-form {
+  margin: 0 auto;
+  padding: 25px 25px 0px 25px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2); */
+}
+
+.mail-message-area {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.mail-message {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8) !important;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.not-visible-message {
+  height: 0px;
+  opacity: 0;
+}
+
+.visible-message {
+  height: auto;
+  opacity: 1;
+  margin: 25px auto 0;
+}
+
+.inner.contact {
+  padding: 50px 0;
+}
+
+/* Input Styles */
+
+.form {
+  width: 100%;
+  padding: 16.94px;
+  /* background:#E2E2E2; */
+  border: 1px solid rgba(13, 12, 12, 0.23);
+  margin-bottom: 25px;
+  color: #727272 !important;
+  font-size: 13px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.form:hover {
+  border: 1px solid #8bc3a3;
+}
+
+.form:focus {
+  color: white;
+  outline: none;
+  border: 1px solid #8bc3a3;
+}
+
+.textarea {
+  height: 200px;
+  max-height: 200px;
+  max-width: 100%;
+}
+/* Generic Button Styles */
+.button {
+  padding: 8px 12px;
+  background: #0a5175;
+  display: block;
+  width: 120px;
+  margin: 10px 0 0px 0;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 0.8em;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background: #8bc3a3;
+  color: white;
+}
+
+/* Send Button Styles */
+
+.form-btn {
+  width: 180px;
+  display: block;
+  float: left;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+  background: rgba(80, 160, 108, 1);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0 auto !important;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.form-btn:hover {
+  background: rgba(85, 184, 120, 1);
+  color: white;
+  border: none;
+}
+
+.form-btn:active {
+  opacity: 0.9;
+}
+
+div.fa {
+  display: block;
+  padding: 30px 0px 25px 0px;
+}
+
+div .fa-2x {
+  padding: 30px 0px 25px 0px;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+.navbar-default {
+  border: 0 !important;
+}
+
+/*========================
+MEDIA QUERIES MOBILE
+=========================*/
+
+@media (max-width: 660px) {
+  .top-title {
+    font-size: 67px;
+  }
+
+  .second-title {
+    font-size: 21px;
+  }
+
+  .background_content h1 {
+    width: 80%;
+    font-size: 2.5em;
+  }
+
+  .form-btn {
+    margin: 0px auto;
+    /* display: block; */
+  }
+}
+/*========================
+MEDIA QUERIES TABLET
+=========================*/
+
+@media (min-width: 400px) {
+  .starter_container {
+    height: 100%;
+  }
+  .background_content h1 {
+    top: 33%;
+  }
+}
+
+/*========================
+MEDIA QUERIES TABLET
+=========================*/
+
+@media (min-width: 660px) {
+  .starter_container {
+    height: 100%;
+  }
+}
+footer {
+  background: #212529;
+}
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+body,
+html {
+  height: 100%;
+  background-color: #fff;
+}
+.desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.bread.background_content {
+  background: url("../images/breakfast.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 70% 50%;
+  height: 570px;
+  background-attachment: fixed;
+}
+
+.featured.background_content {
+  background: url("../images/featured.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 70% 50%;
+  height: 570px;
+  background-attachment: fixed;
+}
+
+.featured1.background_content {
+  background: url("../images/food.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 70% 50%;
+  height: 570px;
+  background-attachment: fixed;
+}
+.icon-bread:before {
+  content: "\f103";
+}
+
+.bg-content {
+  position: relative;
+  top: 50%;
+  color: #fff;
+  font-size: 4.5rem;
+}
